@@ -23,7 +23,7 @@ def show_names():
             else:
                 print("No names stored yet.")
     except FileNotFoundError:
-        print("No names file found. Start by adding some names.")
+        print("No names file found. Please add some names.")
 
 if __name__ == "__main__":
     while True:
